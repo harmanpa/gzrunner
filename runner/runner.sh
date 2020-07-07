@@ -8,3 +8,4 @@ echo $@
 
 roslaunch `dirname "$0"`/runner.launch world:="$1" timeout:=$2
 cp ~/.gazebo/log/**/gzserver/* `dirname "$1"`
+
